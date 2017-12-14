@@ -237,7 +237,7 @@ describe('tictactoe.js', () => {
 
       window.turn = 8;
       window.doTurn(squares[7]);
-
+// throw spy.firstCall.args 
       expect(spy.firstCall.args[0]).to.equal('Tie game.');
     });
 
